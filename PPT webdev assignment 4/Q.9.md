@@ -1,0 +1,10 @@
+Q.9 How can you define default parameter values in ES6 functions?
+Answer-
+
+Function parameters with default values are initialized with default values if they contain no value or are undefined. JavaScript function parameters are defined as undefined by default. However, it may be useful to set a different default value. That is where default parameters come into play.
+
+Syntax:
+
+function name(parameter=value,...parameters) {
+
+}
